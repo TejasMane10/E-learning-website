@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><b> E-Learning Platform </b></div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="userlogin.html">LOGIN</a>
+            <a href="register.html">REGISTER</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <div class="signup-container">
+            <h1>E-Learning Platform</h1>
+            <h2>Admin Login</h2>
+            <form action="AdminServlet" method="POST">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button class="btn" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="about">
+                <h3>E-learning Platform</h3>
+                <p>Contact: 123 456 789 | info@elearningplatform.com</p>
+                <p>© E-learning Platform 2025. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
